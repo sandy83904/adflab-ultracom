@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adflab-adfultracom"
+		},
+		"AmazonS3_Source_secretAccessKey": {
+			"value": ""
+		},
+		"AzStorage_Staging_connectionString": {
+			"value": ""
+		},
+		"SSISDB_connectionString": {
+			"value": ""
+		},
+		"AmazonS3_Source_properties_typeProperties_accessKeyId": {
+			"value": "AKIAJHJOC6ITSHA22RGQ"
+		},
+		"ADFLab-SSIS_properties_typeProperties_ssisProperties_catalogInfo_catalogServerEndpoint": {
+			"value": "adflabsqlktaw7.database.windows.net"
+		},
+		"ADFLab-SSIS_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminUserName": {
+			"value": "hrodriguez"
+		},
+		"ADFLab-SSIS_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminPassword": {
+			"value": ""
+		}
+	}
+}

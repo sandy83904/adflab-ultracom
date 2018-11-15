@@ -1,0 +1,23 @@
+{
+	"name": "Module2 Trigger",
+	"properties": {
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Module2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2018-11-14T02:10:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

@@ -7,7 +7,7 @@
 			"computeProperties": {
 				"location": "East US 2",
 				"nodeSize": "Standard_D1_v2",
-				"numberOfNodes": 2,
+				"numberOfNodes": 1,
 				"maxParallelExecutionsPerNode": 1
 			},
 			"ssisProperties": {
